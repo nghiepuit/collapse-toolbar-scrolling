@@ -1,0 +1,32 @@
+body {
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    &>img {
+        max-width: 100%;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    &>img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
